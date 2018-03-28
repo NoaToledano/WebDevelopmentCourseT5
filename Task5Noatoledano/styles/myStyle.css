@@ -1,0 +1,51 @@
+body {
+    direction: rtl;
+    background-image: url(/images/BR.png);
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type ='text'], textarea, select {
+    display: block;
+    margin-bottom: 15px;
+}
+
+input[type ='submit'] {
+    margin-top: 10px;
+}
+
+h1, h2, p {
+    margin-top: 20px;
+}
+
+#send {
+    background-color: lightsalmon;
+}
+
+h1 {
+    font-size: 28px;
+    color: orangered;
+}
+
+h2 {
+    font-size: 20px;
+    color: gold;
+}
+
+#noa {
+    background-image: url(/images/comp.png);
+    width: 600px;
+    height: 600px;
+    margin: -350px 500px 30px 10px;
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+}
